@@ -3,6 +3,6 @@
     <string name="username">Логин</string>
     <string name="password">Пароль</string>
     <string name="login">Войти</string>
-    <string name="cancel">Отмена</string>
+    <string name="signup">Создать новый аккаунт</string>
     <string name="password_length_error">Пароль должен содержать 8 символов.</string>
 </resources>

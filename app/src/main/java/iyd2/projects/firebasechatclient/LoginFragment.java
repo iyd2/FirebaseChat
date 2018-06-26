@@ -46,7 +46,7 @@ public class LoginFragment extends Fragment {
                     passwordLayout.setError(getString(R.string.password_length_error));
                 } else {
                     passwordLayout.setError(null);
-                    //((NavigationHost) getActivity()).navigateTo(Fragment, false);
+                    //((NavigationHost) getActivity()).navigateTo(SignupFragment.newInstance(), false);
                 }
             }
         });
@@ -58,6 +58,14 @@ public class LoginFragment extends Fragment {
                     passwordLayout.setError(null); //Clear the error
                 }
                 return false;
+            }
+        });
+
+        MaterialButton signupButton = view.findViewById(R.id.login_btn);
+        signupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((NavigationHost) getActivity()).navigateTo(SignupFragment.newInstance(), false);
             }
         });
 
