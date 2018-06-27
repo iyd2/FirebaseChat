@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Firebase Chat Client</string>
     <string name="username">Логин</string>
+    <string name="name">Имя</string>
     <string name="password">Пароль</string>
     <string name="login">Войти</string>
     <string name="signup">Создать новый аккаунт</string>
+    <string name="register">Регистрация</string>
     <string name="password_length_error">Пароль должен содержать 8 символов.</string>
 </resources>

@@ -61,7 +61,7 @@ public class LoginFragment extends Fragment {
             }
         });
 
-        MaterialButton signupButton = view.findViewById(R.id.login_btn);
+        MaterialButton signupButton = view.findViewById(R.id.signup_btn);
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

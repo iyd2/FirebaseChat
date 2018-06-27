@@ -16,12 +16,25 @@
         android:paddingTop="16dp">
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/login_input_layout"
+            android:id="@+id/register_input_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/username">
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/login_edit_text"
+                android:id="@+id/register_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/name_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/name_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -42,15 +55,13 @@
                 android:maxLines="1" />
         </android.support.design.widget.TextInputLayout>
 
-
             <android.support.design.button.MaterialButton
                 android:id="@+id/login_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:text="@string/login"/>
-
+                android:text="@string/register"/>
 
     </LinearLayout>
 </ScrollView>
